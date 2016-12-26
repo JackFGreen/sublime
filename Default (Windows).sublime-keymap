@@ -1,0 +1,87 @@
+[
+    { "keys": ["f12"], "command": "open_in_browser" },
+
+    // chrome
+    { "keys": ["f1"], "command": "side_bar_files_open_with",
+        "args": {
+            "paths": [],
+            "application": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+            "extensions":".*"
+        }
+    },
+
+    // firefox
+    { "keys": ["f2"], "command": "side_bar_files_open_with",
+             "args": {
+                "paths": [],
+                "application": "D:/Mozilla Firefox/firefox.exe",
+                "extensions":".*"
+            }
+    },
+
+    // opera
+    { "keys": ["f3"], "command": "side_bar_files_open_with",
+             "args": {
+                "paths": [],
+                "application": "D:/Opera/launcher.exe",
+                "extensions":".*"
+            }
+    },
+
+    // ie
+     { "keys": ["f4"], "command": "side_bar_files_open_with",
+             "args": {
+                "paths": [],
+                "application": "C:/Program Files/Internet Explorer/iexplore.exe",
+                "extensions":".*"
+            }
+    },
+
+    { "keys": ["ctrl+shift+x"], "command": "css_comb" },
+
+    {
+        "keys": ["ctrl+alt+shift+f"], "command": "js_format",
+        "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
+      },
+
+    { "keys": ["ctrl+shift+alt+c"], "command": "convert_to_utf8", "args": {"encoding": "GBK", "stamp": "0" } } ,
+
+    { "keys": ["ctrl+shift+c", "ctrl+shift+p"], "command": "color_picker" },
+
+    {
+        "keys": ["ctrl+alt+["],
+        "command": "css_format",
+        "args": {
+            "action": "compact"
+        }
+    },
+    {
+        "keys": ["ctrl+alt+]"],
+        "command": "css_format",
+        "args": {
+            "action": "expand"
+        }
+    },
+    //滚动up
+    { "keys": ["ctrl+alt+i"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+    //滚动down
+    { "keys": ["ctrl+alt+k"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+    { "keys": ["ctrl+alt+shift+p"], "command": "autoprefixer" },
+    {
+        "keys": ["ctrl+b","ctrl+b"],
+        "command": "dired",
+        "args": {
+            "immediate": true,
+            "single_pane": true,
+            "other_group": "left",
+            "project": true
+        }
+    },
+    {
+      "keys": ["ctrl+l","ctrl+p"],
+      "command": "dired_jump",
+      "args": { "new_window": true }
+    },
+    //modific
+    { "keys": ["ctrl+alt+d"], "command": "show_diff" }
+]

@@ -1,0 +1,51 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/"
+		}
+	],
+	"auto_find_in_selection": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"default_line_ending": "unix",
+	"enable_highlight": true,
+	"enable_mathjax": true,
+	"ensure_newline_at_eof_on_save": true,
+	"findreplace_small": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".tmp",
+		"CVS",
+		"node_modules",
+		"framework",
+		"yii*",
+		"bower_components"
+	],
+	"font_face": "微软雅黑",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"original_color_scheme": "Packages/User/Color Highlighter/themes/predawn (Colorcoded) (Colorcoded) (Colorcoded).tmTheme",
+	"predawn_findreplace_small": true,
+	"predawn_sidebar_arrows": true,
+	"predawn_sidebar_narrow": true,
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_small": true,
+	"tab_size": 4,
+	"tabs_small": true,
+	"theme": "predawn.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
+}

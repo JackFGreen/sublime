@@ -1,0 +1,30 @@
+{
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"dired_header": true,
+	"dired_hijack_new_window": "dired",
+	"dired_jump_points":
+	{
+		"h5": "/code/working/h5/",
+		"paydayloanvue": "/code/working/paydayloanvue/",
+		"pc": "/code/working/qsq-pc/",
+		"romantic": "/code/working/romantic/",
+		"static": "/code/working/web-static/",
+		"web": "/code/working/project_web/",
+		"working": "/code/working/"
+	},
+	"dired_show_full_path": true,
+	"dired_to_copy":
+	[
+	],
+	"dired_to_move":
+	[
+	],
+	"draw_indent_guides": true,
+	"highlight_line": true,
+	"line_numbers": true,
+	"rulers":
+	[
+	],
+	"tab_size": 4,
+	"word_wrap": true
+}

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#7F000000',EndColorStr='#7F000000');
+0		00
+0.1		19
+0.2		33
+0.3		4C
+0.4		66
+0.5		7F
+0.6		99
+0.7		B2
+0.8		CC
+0.9		E5
+1		FF
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<!-- 禁止手机横屏：安卓下有效 -->
+<meta name="x5-orientation" content="portrait">
+<meta name="screen-orientation" content="portrait">
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<script type="text/javascript">
+        window.onload=function(){
+            function getfont (){
+                var html1 = document.documentElement;
+            
+                var screen = html1.clientWidth;
+            
+                if(screen >= 540){
+                    html1.style.fontSize = '39.96px';
+                } else if(screen <= 320){
+                    html1.style.fontSize = '23.68px';
+                } else{
+                    html1.style.fontSize = 40/540*screen+'px';
+                }
+            
+            }
+            getfont();
+            
+            window.onresize = function(){
+                getfont();
+            }
+
+        }
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

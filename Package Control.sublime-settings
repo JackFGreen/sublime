@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"HTML-CSS-JS Prettify",
+		"JsFormat",
+		"SideBarEnhancements"
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"AutoFileName",
+		"Autoprefixer",
+		"Babel",
+		"BracketHighlighter",
+		"Clipboard Manager",
+		"Color Highlighter",
+		"CSS Comments",
+		"DocBlockr",
+		"FileBrowser",
+		"Gist",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"JsFormat",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Modific",
+		"Monokai Extended",
+		"PlainTasks",
+		"Predawn",
+		"QuoteHTML",
+		"ReactJS",
+		"Sass",
+		"SublimeREPL",
+		"SublimeTmpl",
+		"Vue Syntax Highlight"
+	]
+}

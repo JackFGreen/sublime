@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<!--[if lte IE 6]>
+	<script type="text/javascript" src="js/ie6png.js"></script>
+	<script type="text/javascript">
+		DD_belatedPNG.fix('.tutu,.tutu,.tutu');
+	</script>
+<![endif]-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

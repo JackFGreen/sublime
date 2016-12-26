@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+@media all and (orientation : landscape) { 
+
+h2{color:red;}/*横屏时字体红色*/
+
+} 
+
+@media all and (orientation : portrait){ 
+
+h2{color:green;}/*竖屏时字体绿色*/
+
+} 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
