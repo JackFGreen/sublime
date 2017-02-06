@@ -1,28 +1,24 @@
 <snippet>
     <content><![CDATA[
 <template>
-
+    <div id="${1:page}">
+        
+    </div>
 </template>
 
 <script>
-
-var $data = {
-
-}
-
 module.exports = {
-    data: function() {
-
-        return $data;
+    data() {
+        return {}
     }
 }
-
 </script>
 
 <style lang="scss">
-
+#${1:page} {
+    
+}
 </style>
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <!-- <tabTrigger>hello</tabTrigger> -->
