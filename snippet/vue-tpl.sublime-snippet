@@ -1,31 +1,29 @@
 <snippet>
     <content><![CDATA[
 <template>
-
+    <div id="${1:page}">
+        ${0}
+    </div>
 </template>
 
 <script>
-
-var $data = {
-
-}
+var \$data = {};
 
 module.exports = {
     data: function() {
-
-        return $data;
+        return \$data;
     }
 }
-
 </script>
 
 <style lang="scss">
+#${1:page} {
 
+}
 </style>
-
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <!-- <tabTrigger>hello</tabTrigger> -->
+    <tabTrigger>vt</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>
